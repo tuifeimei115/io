@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>项目 · Zhi</title>
+    <meta name="description" content="项目列表">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="/">Zhi</a>
+      <nav class="nav">
+        <a href="/index.html">首页</a>
+        <a href="/about.html">关于</a>
+        <a href="/projects.html" aria-current="page">项目</a>
+        <a href="/contact.html">联系</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="切换主题">🌙</button>
+    </header>
+
+    <main class="container">
+      <h1>项目</h1>
+      <div class="project-list">
+        <article class="project">
+          <h3>示例项目 A</h3>
+          <p>简短描述，使用到的技术与亮点。</p>
+          <a class="btn" href="#">查看代码</a>
+        </article>
+        <article class="project">
+          <h3>示例项目 B</h3>
+          <p>简短描述，使用到的技术与亮点。</p>
+          <a class="btn" href="#">演示</a>
+        </article>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Zhi.</p>
+    </footer>
+
+    <script src="/script.js" defer></script>
+  </body>
+  </html>
+
+

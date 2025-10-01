@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>关于我 · Zhi</title>
+    <meta name="description" content="关于我">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="/">Zhi</a>
+      <nav class="nav">
+        <a href="/index.html">首页</a>
+        <a href="/about.html" aria-current="page">关于</a>
+        <a href="/projects.html">项目</a>
+        <a href="/contact.html">联系</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="切换主题">🌙</button>
+    </header>
+
+    <main class="container">
+      <h1>关于我</h1>
+      <p>这里可以写你的简介、经历、技能和兴趣。</p>
+
+      <section class="two-col">
+        <div>
+          <h2>简介</h2>
+          <p>一句话介绍你是谁、在做什么。</p>
+        </div>
+        <div>
+          <h2>技能</h2>
+          <ul>
+            <li>JavaScript / TypeScript</li>
+            <li>React / Vue</li>
+            <li>Node.js</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Zhi.</p>
+    </footer>
+
+    <script src="/script.js" defer></script>
+  </body>
+  </html>
+
+

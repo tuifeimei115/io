@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  @apply max-w-5xl;
+}
+
+.btn {
+  @apply inline-flex items-center gap-2 rounded-lg border px-4 py-2 text-sm font-medium transition-colors;
+}
+.btn-primary {
+  @apply bg-blue-600 text-white hover:bg-blue-700 border-blue-700;
+}
+.link {
+  @apply text-blue-600 hover:text-blue-700 underline underline-offset-4;
+}
+
+.card {
+  @apply rounded-xl border bg-white/60 backdrop-blur dark:bg-slate-800/60 p-5 shadow-sm;
+}
+
+/* Fullscreen sections with scroll snap */
+.page-snap {
+  scroll-snap-type: y mandatory;
+}
+.fullscreen-section {
+  min-height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
