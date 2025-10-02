@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 // 例如：VITE_BASE=/your-repo-name/
 export default defineConfig({
   plugins: [react()],
-  base: process.env.VITE_BASE || '/',
+  base: process.env.VITE_BASE || '/io/',
 })
 
 
