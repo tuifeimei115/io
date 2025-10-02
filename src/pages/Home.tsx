@@ -98,7 +98,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-3">联系我</h2>
           <ul className="space-y-2 text-slate-300">
             <li>邮箱：<a className="link" href="mailto:329870857@qq.com">329870857@qq.com</a></li>
-            <li>小红书<a className="link" href="https://xhslink.com/m/407hns60lqy" target="_blank" rel="noreferrer">AI搭子实验室</a></li>
+            <li>小红书：<a className="link" href="https://xhslink.com/m/407hns60lqy" target="_blank" rel="noreferrer">AI搭子实验室</a></li>
           </ul>
         </div>
       </section>
